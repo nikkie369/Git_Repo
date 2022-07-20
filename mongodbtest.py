@@ -1,12 +1,15 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://ineuron:mongodb123@cluster0.goi2j.mongodb.net/?retryWrites=true&w=majority")
+'''client = pymongo.MongoClient("mongodb+srv://ineuron:mongodb123@cluster0.goi2j.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+print(db)'''
+client = pymongo.MongoClient("mongodb+srv://root:mongodb123@cluster0.wbaic4i.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 print(db)
 
 d = {
-    "name":"sudhanshu",
-    "email" : "sudhanshu@ineuron.ai",
-    "surname" : "kumar"
+    "name":"nikkie",
+    "email" : "nikkiie@gmail.com",
+    "surname" : "panday"
 }
 db1 = client['mongotest']
 coll = db1['test']
