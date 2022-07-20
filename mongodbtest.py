@@ -7,6 +7,7 @@ db = client.test
 print(db)
 '''hello'''
 '''basu is genious'''
+''''gitt'''
 d = {
     "name":"nikkie",
     "email" : "nikkiie@gmail.com",
